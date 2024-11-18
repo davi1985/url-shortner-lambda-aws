@@ -16,7 +16,6 @@ public class Main implements RequestHandler<Map<String, Object>, Map<String, Str
     public Map<String, String> handleRequest(Map<String, Object> input, Context context) {
         String body = input.get("body").toString();
 
-
         Map<String, String> bodyMap;
 
         try {
