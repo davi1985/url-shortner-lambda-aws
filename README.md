@@ -1,62 +1,33 @@
 <div align="center" id="top"> 
   <img src="./img.png" alt="Create Url Lambda"  />
-
 &#xa0;
 
 </div>
 
-<h1 align="center">Url shortener with Serveless</h1>
+<h1 align="center">Url Shortener</h1>
 
 <br>
 
 ## :dart: About
 
-Describe your project
-
-## :sparkles: Features
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+A serverless URL shortening service built with AWS, using Lambda, API Gateway, DynamoDB, and S3. This project showcases how to build scalable, cost-efficient applications with cloud-native technologies. Developed during a free Rocketseat event, providing hands-on experience in serverless architecture.
 
 ## :rocket: Technologies
 
 The following tools were used in this project:
 
-<!--
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/) -->
+- Java
+- AWS
+- Lambdas
+- S3
 
-## :white_check_mark: Requirements
+## Lessons
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+- [x] Lesson 1
+- [ ] Lesson 2
+- [ ] Lesson 3
 
-## :checkered_flag: Starting
-
-<!-- ```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/create-url-lambda
-
-# Access
-$ cd create-url-lambda
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-``` -->
-
-## :memo: License
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/davi1985" target="_blank">Davi Silva</a>
 
 &#xa0;
 
