@@ -9,7 +9,5 @@ public interface UrlShortenerService {
 
     Map<String, String> handleShorteningRequest(Map<String, Object> input);
 
-    static String generateUrlCode() {
-        return UUID.randomUUID().toString().substring(SUBSTRING_START_INDEX, SUBSTRING_END_INDEX);
-    }
+
 }

@@ -8,6 +8,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 public class UrlShortenerServiceImpl implements UrlShortenerService {
 
@@ -25,7 +26,7 @@ public class UrlShortenerServiceImpl implements UrlShortenerService {
         String originalUrl = bodyMap.get("originalUrl");
         long expirationTimeInSeconds = RequestValidator.parseExpirationTime(bodyMap.get("expirationTime"));
 
-        String shortUrlCode = UrlShortenerService.generateUrlCode();
+        String shortUrlCode = generateUrlCode();
         UrlData urlData = new UrlData(originalUrl, expirationTimeInSeconds);
 
         s3StorageService.saveUrlData(shortUrlCode, urlData);
@@ -34,5 +35,9 @@ public class UrlShortenerServiceImpl implements UrlShortenerService {
         response.put("code", shortUrlCode);
 
         return response;
+    }
+
+    private static String generateUrlCode() {
+        return UUID.randomUUID().toString().substring(SUBSTRING_START_INDEX, SUBSTRING_END_INDEX);
     }
 }
