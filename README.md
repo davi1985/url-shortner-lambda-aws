@@ -24,7 +24,7 @@ The following tools were used in this project:
 ## Lessons
 
 - [x] Lesson 1
-- [ ] Lesson 2
+- [x] Lesson 2
 - [ ] Lesson 3
 
 Made with :heart: by <a href="https://github.com/davi1985" target="_blank">Davi Silva</a>
