@@ -16,7 +16,6 @@ public class Main implements RequestHandler<Map<String, Object>, Map<String, Str
 
     public static final int SUBSTRING_START_INDEX = 0;
     public static final int SUBSTRING_END_INDEX = 8;
-    public static final int SECONDS_IN_AN_HOUR = 3600;
 
     private final S3Client s3Client = S3Client.builder().build();
     private final ObjectMapper objectMapper = new ObjectMapper();
@@ -35,7 +34,7 @@ public class Main implements RequestHandler<Map<String, Object>, Map<String, Str
 
         String originalUrl = bodyMap.get("originalUrl");
         String expirationTime = bodyMap.get("expirationTime");
-        long expirationTimeInSeconds = Long.parseLong(expirationTime) * SECONDS_IN_AN_HOUR;
+        long expirationTimeInSeconds = Long.parseLong(expirationTime);
 
         String shortUrlCode = generateUrlCode();
 
