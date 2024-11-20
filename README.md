@@ -10,7 +10,7 @@
 
 ## :dart: About
 
-A serverless URL shortening service built with AWS, using Lambda, API Gateway, DynamoDB, and S3. This project showcases how to build scalable, cost-efficient applications with cloud-native technologies. Developed during a free Rocketseat event, providing hands-on experience in serverless architecture.
+A serverless URL shortening service built with AWS, using Lambda, API Gateway, and S3. This project showcases how to build scalable, cost-efficient applications with cloud-native technologies. Developed during a free Rocketseat event, providing hands-on experience in serverless architecture.
 
 ## :rocket: Technologies
 
@@ -25,7 +25,7 @@ The following tools were used in this project:
 
 - [x] Lesson 1
 - [x] Lesson 2
-- [ ] Lesson 3
+- [x] Lesson 3 [Repo with new lambda created](https://github.com/davi1985/url-shortener-lambda-aws-redirect)
 
 Made with :heart: by <a href="https://github.com/davi1985" target="_blank">Davi Silva</a>
 

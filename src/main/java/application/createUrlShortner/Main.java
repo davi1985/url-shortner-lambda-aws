@@ -13,7 +13,6 @@ import java.util.UUID;
 
 public class Main implements RequestHandler<Map<String, Object>, Map<String, String>> {
 
-
     public static final int SUBSTRING_START_INDEX = 0;
     public static final int SUBSTRING_END_INDEX = 8;
 
