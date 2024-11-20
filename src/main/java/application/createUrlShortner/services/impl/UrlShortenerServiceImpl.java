@@ -12,6 +12,9 @@ import java.util.UUID;
 
 public class UrlShortenerServiceImpl implements UrlShortenerService {
 
+    private final static int SUBSTRING_START_INDEX = 0;
+    private final static int SUBSTRING_END_INDEX = 8;
+
     private final S3StorageService s3StorageService;
     private final ObjectMapper objectMapper;
 
